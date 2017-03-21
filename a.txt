@@ -1,0 +1,12 @@
+git新建分支命令：git branch dev(分支名dev)
+
+git切换分支命令：git checkout dev(切换到dev分支)
+
+以上两条命令相当于：git checkout -b dev(新建dev分支并切换到dev分支)
+
+git branch 查看当前分支（列出所有分支，当前分支会有*号）
+
+
+
+
+
