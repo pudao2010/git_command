@@ -19,7 +19,12 @@ git branch 查看当前分支（列出所有分支，当前分支会有*号）
 
 接下来将dev分支合并到master分支
 
-	git merge dev
+	git merge dev   (git merge命令用于合并指定(dev)分支到当前分支(master))
+
+合并到master分支后，dev分支就可以删除了
+	
+	git branch -d dev  (删除dev分支)
+
 
 
 
