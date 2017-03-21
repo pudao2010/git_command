@@ -56,6 +56,22 @@ git commit -m "又创建切换到了feature1分支，并修改了内容"
 再次切换到master分支
 git checkout master
 
+再次合并feature1分支到master分支
+git merge feature1
+
+添加远程库
+git remote add origin 远程仓库地址
+
+把本地库的内容推送到远程库
+git push -u origin master (将当前分支master推送到远程库，第一次推送时远程库是空的，所以加了 -u 参数)
+
+以后再次推送到远程库时只需要
+git push origin master
+
+
+
+
+
 
 
 
