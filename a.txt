@@ -6,6 +6,25 @@ git切换分支命令：git checkout dev(切换到dev分支)
 
 git branch 查看当前分支（列出所有分支，当前分支会有*号）
 
+在dev分支修改内容并提交
+
+	git add a.txt 
+	git commit -m "修改内容"
+
+然后切换回master分支
+
+	git checkout master
+
+然后发现a.txt没有变化，因为刚才提交到的是dev分支，现在切回了master分支
+
+接下来将dev分支合并到master分支
+
+	git merge dev
+
+
+
+
+
 
 
 
