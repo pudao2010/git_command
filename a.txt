@@ -39,6 +39,9 @@ Git鼓励大量使用分支：
 
 删除分支：git branch -d <name>
 
+我现在切换回master分支目的是想演示解决冲突
+
+
 
 
 
